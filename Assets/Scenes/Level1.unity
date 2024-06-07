@@ -465,6 +465,77 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5878137735794130589, guid: c7dcbd6e55901fc43bbfa9154817334b, type: 3}
   m_PrefabInstance: {fileID: 404955471}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &198836452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 198836455}
+  - component: {fileID: 198836454}
+  - component: {fileID: 198836453}
+  m_Layer: 0
+  m_Name: Box Volume - The Boss
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &198836453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198836452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 0
+  priority: 2
+  blendDistance: 1
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: e089692ffd3305a47bc5e0a16ec56eed, type: 2}
+--- !u!65 &198836454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198836452}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &198836455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198836452}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.51306176, z: -0, w: 0.85835165}
+  m_LocalPosition: {x: 473, y: 7.5, z: 588.3}
+  m_LocalScale: {x: 64.86719, y: 14.372483, z: 36.179535}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 61.736, z: 0}
 --- !u!114 &224509100 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6300639463295434091, guid: 2514784c427d2d845b3ec495c9720a91, type: 3}
@@ -476,6 +547,77 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bec8c393c0e75d498550450458c7742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &230890004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 230890007}
+  - component: {fileID: 230890006}
+  - component: {fileID: 230890005}
+  m_Layer: 0
+  m_Name: Box Volume - The Pit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &230890005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230890004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 0
+  priority: 2
+  blendDistance: 1
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: b335d9dbd3a73124db4edd6c3f6c4459, type: 2}
+--- !u!65 &230890006
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230890004}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &230890007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230890004}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.24959557, z: -0, w: 0.96835023}
+  m_LocalPosition: {x: 532.9, y: 1.74, z: 489.7}
+  m_LocalScale: {x: 47.635525, y: 7.9856, z: 36.179535}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -28.907, z: 0}
 --- !u!1001 &240398426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3379,6 +3521,77 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bec8c393c0e75d498550450458c7742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1193371131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1193371134}
+  - component: {fileID: 1193371133}
+  - component: {fileID: 1193371132}
+  m_Layer: 0
+  m_Name: Box Volume - The Boss (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1193371132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193371131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 0
+  priority: 2
+  blendDistance: 1
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: e089692ffd3305a47bc5e0a16ec56eed, type: 2}
+--- !u!65 &1193371133
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193371131}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1193371134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193371131}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.843805, z: -0, w: 0.53664994}
+  m_LocalPosition: {x: 510.3, y: 11.4, z: 619.1}
+  m_LocalScale: {x: 97.86513, y: 14.372483, z: 54.511707}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 115.088, z: 0}
 --- !u!1 &1202608978
 GameObject:
   m_ObjectHideFlags: 0
@@ -5316,6 +5529,77 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5155282514090936261, guid: c7dcbd6e55901fc43bbfa9154817334b, type: 3}
   m_PrefabInstance: {fileID: 404955471}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1797720280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1797720283}
+  - component: {fileID: 1797720282}
+  - component: {fileID: 1797720281}
+  m_Layer: 0
+  m_Name: Box Volume - The Road
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1797720281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797720280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 0
+  priority: 0
+  blendDistance: 1
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 80d32435cb1b5e64c84af4e4f43c5f1d, type: 2}
+--- !u!65 &1797720282
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797720280}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1797720283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797720280}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.51306176, z: -0, w: 0.85835165}
+  m_LocalPosition: {x: 503.76, y: 7.5, z: 531.12}
+  m_LocalScale: {x: 64.86719, y: 14.372483, z: 36.179535}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 61.736, z: 0}
 --- !u!1001 &1845405413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5826,3 +6110,7 @@ SceneRoots:
   - {fileID: 934816372}
   - {fileID: 1127612782}
   - {fileID: 1041053791}
+  - {fileID: 230890007}
+  - {fileID: 1797720283}
+  - {fileID: 198836455}
+  - {fileID: 1193371134}
